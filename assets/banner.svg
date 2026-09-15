@@ -22,12 +22,12 @@
   <rect x=".5" y=".5" width="1199" height="399" fill="none" stroke="#D8DEE6"/>
 
   <!-- text column -->
-  <text x="64" y="82" class="mono" font-size="12" letter-spacing="1.8" fill="#6B7688">DARKANALYTICA</text>
+  <text x="64" y="82" class="mono" font-size="12" letter-spacing="1.8" fill="#5F6B7C">DARKANALYTICA</text>
   <rect x="64" y="108" width="48" height="3" fill="#0B2545"/>
   <text x="64" y="172" class="display" font-size="39" font-weight="600" fill="#0E1726">Attack &amp; Defence Field Guide</text>
   <text x="64" y="226" class="sans" font-size="19" fill="#3D4A5C">Every technique paired with the control that stops it</text>
   <text x="64" y="252" class="sans" font-size="19" fill="#3D4A5C">and the signal that detects it. Authorised testing only.</text>
-  <text x="64" y="330" class="mono" font-size="12" letter-spacing="1.2" fill="#6B7688">DEFENSIVE SECURITY  ·  BLUE TEAM  ·  EDUCATION</text>
+  <text x="64" y="330" class="mono" font-size="12" letter-spacing="1.2" fill="#5F6B7C">DEFENSIVE SECURITY  ·  BLUE TEAM  ·  EDUCATION</text>
 
   <line x1="680" y1="56" x2="680" y2="344" stroke="#D8DEE6"/>
 
@@ -61,6 +61,6 @@
         path="M870,141 C915,141 940,146 985,150 L985,205 C985,235 905,250 872,260"/>
     </circle>
 
-    <text x="712" y="352" class="mono" font-size="12" fill="#6B7688">TECHNIQUE  ·  CONTROL  ·  DETECTION</text>
+    <text x="712" y="352" class="mono" font-size="12" fill="#5F6B7C">TECHNIQUE  ·  CONTROL  ·  DETECTION</text>
   </g>
 </svg>

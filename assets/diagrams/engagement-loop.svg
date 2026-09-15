@@ -12,7 +12,7 @@
     @media (prefers-reduced-motion: reduce) { * { animation: none !important } }
   </style>
   <rect width="1200" height="520" fill="#F5F7FA"/>
-  <text x="48" y="52" class="mono" font-size="12" letter-spacing="1.2" fill="#6B7688">FIG. 2  ·  AUTHORISED ASSESSMENT, AS A LOOP</text>
+  <text x="48" y="52" class="mono" font-size="12" letter-spacing="1.2" fill="#5F6B7C">FIG. 2  ·  AUTHORISED ASSESSMENT, AS A LOOP</text>
   <text x="48" y="94" class="display" font-size="26" font-weight="600" fill="#0E1726">Authorisation gates it; the report is the product</text>
 
   <circle cx="600" cy="300" r="150" fill="none" stroke="#D8DEE6" stroke-width="1.5"/>
@@ -27,12 +27,12 @@
 
   <!-- upper right: recon -->
   <rect x="770" y="200" width="170" height="52" rx="4" fill="#fff" stroke="#D8DEE6" stroke-width="1.5"/>
-  <text x="855" y="224" text-anchor="middle" class="mono" font-size="11" letter-spacing="1" fill="#6B7688">02  RECON</text>
+  <text x="855" y="224" text-anchor="middle" class="mono" font-size="11" letter-spacing="1" fill="#5F6B7C">02  RECON</text>
   <text x="855" y="242" text-anchor="middle" class="sans" font-size="12" fill="#0E1726">passive first, in scope</text>
 
   <!-- lower right: assess -->
   <rect x="770" y="350" width="170" height="52" rx="4" fill="#fff" stroke="#D8DEE6" stroke-width="1.5"/>
-  <text x="855" y="374" text-anchor="middle" class="mono" font-size="11" letter-spacing="1" fill="#6B7688">03  ASSESS</text>
+  <text x="855" y="374" text-anchor="middle" class="mono" font-size="11" letter-spacing="1" fill="#5F6B7C">03  ASSESS</text>
   <text x="855" y="392" text-anchor="middle" class="sans" font-size="12" fill="#0E1726">confirm, prove impact</text>
 
   <!-- bottom: report (value) -->
@@ -48,9 +48,9 @@
 
   <!-- upper left: retest -->
   <rect x="260" y="200" width="170" height="52" rx="4" fill="#fff" stroke="#D8DEE6" stroke-width="1.5"/>
-  <text x="345" y="224" text-anchor="middle" class="mono" font-size="11" letter-spacing="1" fill="#6B7688">06  RETEST</text>
+  <text x="345" y="224" text-anchor="middle" class="mono" font-size="11" letter-spacing="1" fill="#5F6B7C">06  RETEST</text>
   <text x="345" y="242" text-anchor="middle" class="sans" font-size="12" fill="#0E1726">confirm the fix holds</text>
 
-  <text x="600" y="294" text-anchor="middle" class="mono" font-size="11" letter-spacing="1" fill="#6B7688">NEVER STARTS</text>
-  <text x="600" y="312" text-anchor="middle" class="mono" font-size="11" letter-spacing="1" fill="#6B7688">WITHOUT 01</text>
+  <text x="600" y="294" text-anchor="middle" class="mono" font-size="11" letter-spacing="1" fill="#5F6B7C">NEVER STARTS</text>
+  <text x="600" y="312" text-anchor="middle" class="mono" font-size="11" letter-spacing="1" fill="#5F6B7C">WITHOUT 01</text>
 </svg>
