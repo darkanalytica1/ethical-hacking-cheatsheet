@@ -26,20 +26,9 @@ lab. See [Legal and scope](sheets/00-legal-and-scope.md) before anything else.
 A penetration test is not random poking. It follows a repeatable loop, and
 every sheet in this repository maps onto one of these phases.
 
-```mermaid
-flowchart LR
-    A[Authorise\nrules of engagement] --> B[Recon & OSINT\npassive first]
-    B --> C[Scan & enumerate\nhosts, ports, services]
-    C --> D[Find weaknesses\nmap to known issues]
-    D --> E[Exploit\nin scope only]
-    E --> F[Post-exploitation\nassess real impact]
-    F --> G[Report\nprioritised, reproducible]
-    G --> H[Re-test\nverify the fix]
-    H -.->|next cycle| B
-    style A fill:#0074F4,color:#fff
-    style G fill:#1f9d55,color:#fff
-    style H fill:#1f9d55,color:#fff
-```
+<p align="center">
+  <img src="assets/engagement-loop.gif" alt="The engagement loop: authorise, recon, scan, exploit, report" width="900">
+</p>
 
 The two green boxes are where the value is. A finding nobody can reproduce and
 nobody fixes was a waste of everyone's time.
