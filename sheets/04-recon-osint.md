@@ -22,8 +22,8 @@ flowchart LR
     end
     P --> MODEL[Picture of the target:<br/>domains, hosts, people, tech]
     A --> MODEL
-    style P fill:#eef4ff
-    style A fill:#fff4e6
+    style P fill:#edf1f6
+    style A fill:#f4efe2
 ```
 
 **Do passive first.** Exhaust what you can learn without alerting anyone, then

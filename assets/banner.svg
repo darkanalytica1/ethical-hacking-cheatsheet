@@ -2,7 +2,7 @@
   <title id="t">Attack and Defence Field Guide</title>
   <desc id="d">Each offensive technique is read alongside the control that stops it and the signal that detects it. A probe travels from the attack side, meets a control, and surfaces as a detection.</desc>
   <style>
-    .serif { font-family: 'Source Serif 4', 'Source Serif Pro', Georgia, 'Times New Roman', serif; }
+    .display { font-family: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; letter-spacing: -0.01em; }
     .sans  { font-family: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
     .mono  { font-family: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
     .shield { animation: pulse 6s ease-in-out infinite; }
@@ -13,54 +13,54 @@
   </style>
   <defs>
     <linearGradient id="probeGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#A33A2B" stop-opacity="0"/>
-      <stop offset="1" stop-color="#A33A2B" stop-opacity=".5"/>
+      <stop offset="0" stop-color="#8A6A1F" stop-opacity="0"/>
+      <stop offset="1" stop-color="#8A6A1F" stop-opacity=".5"/>
     </linearGradient>
   </defs>
 
-  <rect width="1200" height="400" fill="#F6F4EF"/>
-  <rect x=".5" y=".5" width="1199" height="399" fill="none" stroke="#DAD6CC"/>
+  <rect width="1200" height="400" fill="#F5F7FA"/>
+  <rect x=".5" y=".5" width="1199" height="399" fill="none" stroke="#D8DEE6"/>
 
   <!-- text column -->
-  <text x="64" y="82" class="mono" font-size="12" letter-spacing="1.8" fill="#7A8088">DARKANALYTICA</text>
-  <rect x="64" y="108" width="48" height="3" fill="#1F3A5F"/>
-  <text x="64" y="172" class="serif" font-size="39" font-weight="600" fill="#1B1F24">Attack &amp; Defence Field Guide</text>
-  <text x="64" y="226" class="sans" font-size="19" fill="#4A5058">Every technique paired with the control that stops it</text>
-  <text x="64" y="252" class="sans" font-size="19" fill="#4A5058">and the signal that detects it. Authorised testing only.</text>
-  <text x="64" y="330" class="mono" font-size="12" letter-spacing="1.2" fill="#7A8088">DEFENSIVE SECURITY  ·  BLUE TEAM  ·  EDUCATION</text>
+  <text x="64" y="82" class="mono" font-size="12" letter-spacing="1.8" fill="#6B7688">DARKANALYTICA</text>
+  <rect x="64" y="108" width="48" height="3" fill="#0B2545"/>
+  <text x="64" y="172" class="display" font-size="39" font-weight="600" fill="#0E1726">Attack &amp; Defence Field Guide</text>
+  <text x="64" y="226" class="sans" font-size="19" fill="#3D4A5C">Every technique paired with the control that stops it</text>
+  <text x="64" y="252" class="sans" font-size="19" fill="#3D4A5C">and the signal that detects it. Authorised testing only.</text>
+  <text x="64" y="330" class="mono" font-size="12" letter-spacing="1.2" fill="#6B7688">DEFENSIVE SECURITY  ·  BLUE TEAM  ·  EDUCATION</text>
 
-  <line x1="680" y1="56" x2="680" y2="344" stroke="#DAD6CC"/>
+  <line x1="680" y1="56" x2="680" y2="344" stroke="#D8DEE6"/>
 
   <!-- mechanism strip: technique -> control -> detection -->
   <g>
     <!-- attack node -->
-    <rect x="720" y="112" width="150" height="58" rx="4" fill="#F6E9E6" stroke="#A33A2B" stroke-width="1.5"/>
-    <text x="738" y="138" class="mono" font-size="11" letter-spacing="1" fill="#A33A2B">TECHNIQUE</text>
-    <text x="738" y="158" class="sans" font-size="13" fill="#1B1F24">an attempt</text>
+    <rect x="720" y="112" width="150" height="58" rx="4" fill="#F4EFE2" stroke="#8A6A1F" stroke-width="1.5"/>
+    <text x="738" y="138" class="mono" font-size="11" letter-spacing="1" fill="#8A6A1F">TECHNIQUE</text>
+    <text x="738" y="158" class="sans" font-size="13" fill="#0E1726">an attempt</text>
 
     <!-- control (shield) node, centre -->
     <g class="shield">
       <path d="M985,96 L1035,112 L1035,150 C1035,178 1010,192 985,204 C960,192 935,178 935,150 L935,112 Z"
-            fill="#E8EDF3" stroke="#1F3A5F" stroke-width="1.75"/>
+            fill="#EDF1F6" stroke="#0B2545" stroke-width="1.75"/>
     </g>
     <path d="M985,96 L1035,112 L1035,150 C1035,178 1010,192 985,204 C960,192 935,178 935,150 L935,112 Z"
-          fill="none" stroke="#1F3A5F" stroke-width="1.75"/>
-    <path d="M963,150 l16,16 l30,-34" fill="none" stroke="#1F3A5F" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="948" y="230" class="mono" font-size="11" letter-spacing="1" fill="#1F3A5F">CONTROL</text>
+          fill="none" stroke="#0B2545" stroke-width="1.75"/>
+    <path d="M963,150 l16,16 l30,-34" fill="none" stroke="#0B2545" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="948" y="230" class="mono" font-size="11" letter-spacing="1" fill="#0B2545">CONTROL</text>
 
     <!-- detection node -->
-    <rect x="720" y="240" width="150" height="58" rx="4" fill="#EDF0F3" stroke="#5B7083" stroke-width="1.5"/>
-    <text x="738" y="266" class="mono" font-size="11" letter-spacing="1" fill="#5B7083">DETECTION</text>
-    <text x="738" y="286" class="sans" font-size="13" fill="#1B1F24">a logged signal</text>
+    <rect x="720" y="240" width="150" height="58" rx="4" fill="#EEF2F5" stroke="#3E5C76" stroke-width="1.5"/>
+    <text x="738" y="266" class="mono" font-size="11" letter-spacing="1" fill="#3E5C76">DETECTION</text>
+    <text x="738" y="286" class="sans" font-size="13" fill="#0E1726">a logged signal</text>
 
     <!-- probe travelling: attack -> control -> detection -->
-    <path class="track" d="M870,141 C915,141 940,146 960,150" fill="none" stroke="#A33A2B" stroke-width="1.5" stroke-opacity=".6"/>
-    <path class="track" d="M985,205 C985,235 905,250 872,260" fill="none" stroke="#5B7083" stroke-width="1.5" stroke-opacity=".6"/>
-    <circle r="4.5" fill="#A33A2B">
+    <path class="track" d="M870,141 C915,141 940,146 960,150" fill="none" stroke="#8A6A1F" stroke-width="1.5" stroke-opacity=".6"/>
+    <path class="track" d="M985,205 C985,235 905,250 872,260" fill="none" stroke="#3E5C76" stroke-width="1.5" stroke-opacity=".6"/>
+    <circle r="4.5" fill="#8A6A1F">
       <animateMotion dur="8s" repeatCount="indefinite"
         path="M870,141 C915,141 940,146 985,150 L985,205 C985,235 905,250 872,260"/>
     </circle>
 
-    <text x="712" y="352" class="mono" font-size="12" fill="#7A8088">TECHNIQUE  ·  CONTROL  ·  DETECTION</text>
+    <text x="712" y="352" class="mono" font-size="12" fill="#6B7688">TECHNIQUE  ·  CONTROL  ·  DETECTION</text>
   </g>
 </svg>

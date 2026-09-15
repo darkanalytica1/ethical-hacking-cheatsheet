@@ -12,8 +12,8 @@ flowchart LR
     B --> C[Service & version<br/>what is listening]
     C --> D[Enumeration<br/>dig into each service]
     D --> E[Map to known issues\\ nversion + config -> weakness]
-    style A fill:#0074F4,color:#fff
-    style E fill:#1f9d55,color:#fff
+    style A fill:#0B2545,color:#fff
+    style E fill:#2f6f73,color:#fff
 ```
 
 Each arrow narrows the surface. You start with a range and end with a short list

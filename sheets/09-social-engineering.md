@@ -21,8 +21,8 @@ flowchart LR
     C -->|clicks / replies / calls back| D[Harvest<br/>credentials or action]
     C -->|reports it| E[Defence worked]
     D --> F[Report to client<br/>with the click data]
-    style E fill:#1f9d55,color:#fff
-    style F fill:#0074F4,color:#fff
+    style E fill:#2f6f73,color:#fff
+    style F fill:#0B2545,color:#fff
 ```
 
 In an authorised test, both green and blue are wins: a reported lure proves the

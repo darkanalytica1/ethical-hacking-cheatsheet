@@ -24,8 +24,8 @@ flowchart TB
     K <--> V1
     K <--> V2
     LAB -. blocked .-> NET((Internet))
-    style NET fill:#c0392b,color:#fff
-    style LAB fill:#eef4ff
+    style NET fill:#8a6a1f,color:#fff
+    style LAB fill:#edf1f6
 ```
 
 The red node is what must never be reachable from inside the lab.

@@ -16,7 +16,7 @@ flowchart LR
     D --> G[Prove impact, then report & fix]
     E --> G
     F --> G
-    style G fill:#1f9d55,color:#fff
+    style G fill:#2f6f73,color:#fff
 ```
 
 The common thread across all of them: **untrusted input reaching a sensitive

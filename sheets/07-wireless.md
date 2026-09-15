@@ -32,8 +32,8 @@ flowchart TB
     E --> F{Match?}
     F -->|weak passphrase| G[Recovered]
     F -->|strong passphrase| H[Infeasible - this is the defence]
-    style G fill:#c0392b,color:#fff
-    style H fill:#1f9d55,color:#fff
+    style G fill:#8a6a1f,color:#fff
+    style H fill:#2f6f73,color:#fff
 ```
 
 Two things make the difference between the red outcome and the green one:
